@@ -7,22 +7,24 @@
     font-family: "Montserrat", sans-serif;
   }
   body {
-    background: #eee;
+    background: #121212;
     background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
     padding: 0 16px;
+    overflow-x: hidden;
   }
   
   header {
-    background-color: #f5ba13;
+    background-color: #7536cc;
     margin: auto -16px;
     padding: 16px 32px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px 0 rgba(8, 8, 8, 0.3);
   }
   
   header h1 {
     color: #fff;
-    font-family: "McLaren", cursive;
-    font-weight: 200;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    font-weight: 450;
   }
   
   footer {
@@ -34,12 +36,12 @@
   }
   
   footer p {
-    color: #ccc;
+    color: #fff;
   }
   .note {
-    background: #fff;
+    background: #282727;
     border-radius: 7px;
-    box-shadow: 0 2px 5px #ccc;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
     padding: 10px;
     width: 240px;
     margin: 16px;
@@ -48,37 +50,42 @@
   .note h1 {
     font-size: 1.1em;
     margin-bottom: 6px;
+    color: #fff;
   }
   .note p {
     font-size: 1.1em;
     margin-bottom: 10px;
     white-space: pre-wrap;
     word-wrap: break-word;
+    color: #fff;
   }
   
   .note button {
     position: relative;
     float: right;
     margin-right: 10px;
-    color: #f5ba13;
+    color: #7536cc;
     border: none;
     width: 36px;
     height: 36px;
     cursor: pointer;
     outline: none;
+    border-radius: 70%;
   }
   
   form.create-note {
     position: relative;
     width: 480px;
     margin: 30px auto 20px auto;
-    background: #fff;
+    background: #121212;
     padding: 15px;
     border-radius: 7px;
-    box-shadow: 0 1px 5px rgb(138, 137, 137);
+    box-shadow: 0 1px 5px rgb(0, 0, 0);
   }
   form.create-note input,
   form.create-note textarea {
+    background: #121212;
+    color: #fff;
     width: 100%;
     border: none;
     padding: 4px;
@@ -91,8 +98,8 @@
     position: absolute;
     right: 18px;
     bottom: -18px;
-    background: #f5ba13;
-    color: #fff;
+    background: #7536cc;
+    color: #ffffff;
     border: none;
     border-radius: 50%;
     width: 26px;
@@ -100,5 +107,9 @@
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     cursor: pointer;
     outline: none;
+  }
+  .head
+  {
+    display: flex;
   }
   

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Icon from '@mui/material/Icon';
-import { yellow } from "@mui/material/colors";
+
 
 
 function CreateArea(props) {
