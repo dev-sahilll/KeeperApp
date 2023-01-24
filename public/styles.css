@@ -77,14 +77,14 @@
     position: relative;
     width: 480px;
     margin: 30px auto 20px auto;
-    background: #121212;
+    background: #282727;
     padding: 15px;
     border-radius: 7px;
     box-shadow: 0 1px 5px rgb(0, 0, 0);
   }
   form.create-note input,
   form.create-note textarea {
-    background: #121212;
+    background: #282727;
     color: #fff;
     width: 100%;
     border: none;
